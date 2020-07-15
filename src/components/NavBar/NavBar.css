@@ -1,0 +1,26 @@
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-height: 5vh;
+  background-color: #327d11;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #e7ecef;
+  text-transform: capitalize;
+}
+
+nav ul li a.active {
+  font-weight: 600;
+  color: brown;
+}
