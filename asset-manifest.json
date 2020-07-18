@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Smarca02-module-ii/static/css/main.dc0cba22.chunk.css",
+    "main.js": "/Smarca02-module-ii/static/js/main.6564845a.chunk.js",
+    "main.js.map": "/Smarca02-module-ii/static/js/main.6564845a.chunk.js.map",
+    "runtime-main.js": "/Smarca02-module-ii/static/js/runtime-main.455ba15d.js",
+    "runtime-main.js.map": "/Smarca02-module-ii/static/js/runtime-main.455ba15d.js.map",
+    "static/js/2.4bb493a9.chunk.js": "/Smarca02-module-ii/static/js/2.4bb493a9.chunk.js",
+    "static/js/2.4bb493a9.chunk.js.map": "/Smarca02-module-ii/static/js/2.4bb493a9.chunk.js.map",
+    "index.html": "/Smarca02-module-ii/index.html",
+    "precache-manifest.4ef360b6f968fbc16a69897a19ea4abf.js": "/Smarca02-module-ii/precache-manifest.4ef360b6f968fbc16a69897a19ea4abf.js",
+    "service-worker.js": "/Smarca02-module-ii/service-worker.js",
+    "static/css/main.dc0cba22.chunk.css.map": "/Smarca02-module-ii/static/css/main.dc0cba22.chunk.css.map",
+    "static/js/2.4bb493a9.chunk.js.LICENSE.txt": "/Smarca02-module-ii/static/js/2.4bb493a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.455ba15d.js",
+    "static/js/2.4bb493a9.chunk.js",
+    "static/css/main.dc0cba22.chunk.css",
+    "static/js/main.6564845a.chunk.js"
+  ]
+}
