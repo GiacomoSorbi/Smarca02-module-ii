@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../myimages";
+import Logo from "../../myimages/logo.svg";
 import "./NavBar.css";
 
 const NavBar = () => (
-  <nav>
-    <ul>
-      <li>
-        <Link to="/">
-          <img src={Logo} alt="logo" className="navBarLogo" />
-        </Link>
-      </li>
+  <nav className="navBar_container">
+    <div className="navBar_logoh">
+      <Link to="/">
+        <img src={Logo} alt="Bring a plant logo" className="navBarLogo" />
+      </Link>
+    </div>
+    <ul className="navBar_links">
       <li>
         <Link to="/events">Events</Link>
       </li>

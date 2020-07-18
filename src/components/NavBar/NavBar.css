@@ -1,13 +1,28 @@
-nav ul {
+.navBar_container {
   display: flex;
+  max-width: 100%;
   align-items: center;
-  justify-content: space-evenly;
-  height: 10vh;
+  height: 11vh;
   background-color: #327d11;
 }
 
+.navBar_logoh {
+  width: 30%;
+}
+
+.navBarLogo {
+  height: 8vh;
+  padding-left: 3em;
+}
+
+.navBar_links {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
 nav ul li {
-  display: inline-block;
+  display: inline-flex;
   margin: 0;
 }
 
@@ -17,7 +32,7 @@ nav ul li a {
   font-weight: 400;
   font-size: 1.3rem;
   color: #e7ecef;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 nav ul li a:active {
