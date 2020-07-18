@@ -2,7 +2,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  max-height: 5vh;
+  height: 10vh;
   background-color: #327d11;
 }
 
@@ -13,14 +13,14 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.3rem;
   color: #e7ecef;
   text-transform: capitalize;
 }
 
-nav ul li a.active {
-  font-weight: 600;
+nav ul li a:active {
+  font-weight: 700;
   color: brown;
 }
