@@ -1,0 +1,26 @@
+.main-footer {
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #b5b5b5;
+  margin-top: 3em;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 11vh;
+  padding: 0 8em;
+}
+
+.row1 {
+  display: flex;
+  width: 70%;
+  color: #707070;
+}
+
+.row2 {
+  display: flex;
+  width: 30%;
+}

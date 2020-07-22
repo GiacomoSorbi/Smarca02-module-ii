@@ -1,5 +1,16 @@
 import React from "react";
+import HeroImg from "../../components/HeroImg";
+import ShopText from "../../components/ShopText";
 
-const ShopPage = () => <div>Hello I am the Shop Page</div>;
+function ShopPage() {
+  return (
+    <>
+      <main>
+        <HeroImg heroimage={require("../../myimages/shop_Img1.jpg")} />
+        <ShopText />
+      </main>
+    </>
+  );
+}
 
 export default ShopPage;

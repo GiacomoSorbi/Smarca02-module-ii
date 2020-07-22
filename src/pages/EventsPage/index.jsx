@@ -1,5 +1,16 @@
 import React from "react";
+import HeroImg from "../../components/HeroImg";
+import EventsText from "../../components/EventsText";
 
-const EventsPage = () => <div>Hello I am the Events Page</div>;
+function EventsPage() {
+  return (
+    <>
+      <main>
+        <HeroImg heroimage={require("../../myimages/events_Img1.jpg")} />
+        <EventsText />
+      </main>
+    </>
+  );
+}
 
 export default EventsPage;
