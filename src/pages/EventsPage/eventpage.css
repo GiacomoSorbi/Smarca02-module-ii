@@ -1,0 +1,17 @@
+.cardlist-container {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2em;
+  margin: 0 auto;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Delius";
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-top: 2em;
+}

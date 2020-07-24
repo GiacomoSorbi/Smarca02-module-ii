@@ -1,26 +1,16 @@
-/*.main-container {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  align-items: center;
-  justify-items: center;
-  margin: 0 auto;
-  padding-top: 4em;
-}*/
-
 .about-us {
   display: flex;
   flex-direction: row;
 }
 
-.tworows {
+.two-rows {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding-bottom: 2em;
 }
 
-.columnpic {
+.column-pic {
   display: flex;
   max-width: 100%;
   width: 50%;

@@ -4,9 +4,9 @@ import "./about-us.css";
 const AboutUs = () => (
   <div className="main-container">
     <article className="about-us">
-      <div className="tworows">
+      <div className="two-rows">
         <h2>ABOUT US</h2>
-        <p className="columntext">
+        <p className="column-text">
           We are a friendly group of people from different walks of life and
           backgrounds who share the love for nature and socialising. Bring a
           Plant was born out of our common genuine obsession with growing
@@ -14,7 +14,7 @@ const AboutUs = () => (
         </p>
       </div>
       <img
-        className="columnpic"
+        className="column-pic"
         src={require("../../myimages/home_groupPhoto.jpg")}
         alt="group of people gardening"
       />
