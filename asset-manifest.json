@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Smarca02-module-ii/static/css/main.d8cd78b4.chunk.css",
-    "main.js": "/Smarca02-module-ii/static/js/main.441e03ee.chunk.js",
-    "main.js.map": "/Smarca02-module-ii/static/js/main.441e03ee.chunk.js.map",
-    "runtime-main.js": "/Smarca02-module-ii/static/js/runtime-main.270daea9.js",
-    "runtime-main.js.map": "/Smarca02-module-ii/static/js/runtime-main.270daea9.js.map",
-    "static/js/2.cc224d79.chunk.js": "/Smarca02-module-ii/static/js/2.cc224d79.chunk.js",
-    "static/js/2.cc224d79.chunk.js.map": "/Smarca02-module-ii/static/js/2.cc224d79.chunk.js.map",
+    "main.css": "/Smarca02-module-ii/static/css/main.dfaf14f8.chunk.css",
+    "main.js": "/Smarca02-module-ii/static/js/main.7471a108.chunk.js",
+    "main.js.map": "/Smarca02-module-ii/static/js/main.7471a108.chunk.js.map",
+    "runtime-main.js": "/Smarca02-module-ii/static/js/runtime-main.455ba15d.js",
+    "runtime-main.js.map": "/Smarca02-module-ii/static/js/runtime-main.455ba15d.js.map",
+    "static/js/2.9bc3ef3b.chunk.js": "/Smarca02-module-ii/static/js/2.9bc3ef3b.chunk.js",
+    "static/js/2.9bc3ef3b.chunk.js.map": "/Smarca02-module-ii/static/js/2.9bc3ef3b.chunk.js.map",
     "index.html": "/Smarca02-module-ii/index.html",
-    "precache-manifest.7df3f71c700286a3ed63af481d4a5f6d.js": "/Smarca02-module-ii/precache-manifest.7df3f71c700286a3ed63af481d4a5f6d.js",
+    "precache-manifest.6ac87485df7dd0c4944c9e79558f8bc1.js": "/Smarca02-module-ii/precache-manifest.6ac87485df7dd0c4944c9e79558f8bc1.js",
     "service-worker.js": "/Smarca02-module-ii/service-worker.js",
-    "static/css/main.d8cd78b4.chunk.css.map": "/Smarca02-module-ii/static/css/main.d8cd78b4.chunk.css.map",
-    "static/js/2.cc224d79.chunk.js.LICENSE.txt": "/Smarca02-module-ii/static/js/2.cc224d79.chunk.js.LICENSE.txt",
+    "static/css/main.dfaf14f8.chunk.css.map": "/Smarca02-module-ii/static/css/main.dfaf14f8.chunk.css.map",
+    "static/js/2.9bc3ef3b.chunk.js.LICENSE.txt": "/Smarca02-module-ii/static/js/2.9bc3ef3b.chunk.js.LICENSE.txt",
     "static/media/events_Img1.jpg": "/Smarca02-module-ii/static/media/events_Img1.a66d016b.jpg",
     "static/media/green-imgcomp.jpg": "/Smarca02-module-ii/static/media/green-imgcomp.78083239.jpg",
     "static/media/home-Img1.jpg": "/Smarca02-module-ii/static/media/home-Img1.ee3702ab.jpg",
@@ -21,9 +21,9 @@
     "static/media/shop_Img1.jpg": "/Smarca02-module-ii/static/media/shop_Img1.ee666966.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.270daea9.js",
-    "static/js/2.cc224d79.chunk.js",
-    "static/css/main.d8cd78b4.chunk.css",
-    "static/js/main.441e03ee.chunk.js"
+    "static/js/runtime-main.455ba15d.js",
+    "static/js/2.9bc3ef3b.chunk.js",
+    "static/css/main.dfaf14f8.chunk.css",
+    "static/js/main.7471a108.chunk.js"
   ]
 }
