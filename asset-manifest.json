@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Smarca02-module-ii/static/css/main.73ec6ae8.chunk.css",
-    "main.js": "/Smarca02-module-ii/static/js/main.3c7a4be9.chunk.js",
-    "main.js.map": "/Smarca02-module-ii/static/js/main.3c7a4be9.chunk.js.map",
+    "main.css": "/Smarca02-module-ii/static/css/main.e6f88bd2.chunk.css",
+    "main.js": "/Smarca02-module-ii/static/js/main.aab15b3a.chunk.js",
+    "main.js.map": "/Smarca02-module-ii/static/js/main.aab15b3a.chunk.js.map",
     "runtime-main.js": "/Smarca02-module-ii/static/js/runtime-main.455ba15d.js",
     "runtime-main.js.map": "/Smarca02-module-ii/static/js/runtime-main.455ba15d.js.map",
     "static/js/2.66832235.chunk.js": "/Smarca02-module-ii/static/js/2.66832235.chunk.js",
     "static/js/2.66832235.chunk.js.map": "/Smarca02-module-ii/static/js/2.66832235.chunk.js.map",
     "index.html": "/Smarca02-module-ii/index.html",
-    "precache-manifest.7de0e3aed91e430df05a6a53b8718c6f.js": "/Smarca02-module-ii/precache-manifest.7de0e3aed91e430df05a6a53b8718c6f.js",
+    "precache-manifest.a8ec1099f5bec1c13f16e2016ad68ca1.js": "/Smarca02-module-ii/precache-manifest.a8ec1099f5bec1c13f16e2016ad68ca1.js",
     "service-worker.js": "/Smarca02-module-ii/service-worker.js",
-    "static/css/main.73ec6ae8.chunk.css.map": "/Smarca02-module-ii/static/css/main.73ec6ae8.chunk.css.map",
+    "static/css/main.e6f88bd2.chunk.css.map": "/Smarca02-module-ii/static/css/main.e6f88bd2.chunk.css.map",
     "static/js/2.66832235.chunk.js.LICENSE.txt": "/Smarca02-module-ii/static/js/2.66832235.chunk.js.LICENSE.txt",
     "static/media/camping_mug.jpg": "/Smarca02-module-ii/static/media/camping_mug.27b256cd.jpg",
     "static/media/events_Img1.jpg": "/Smarca02-module-ii/static/media/events_Img1.a66d016b.jpg",
@@ -19,7 +19,7 @@
     "static/media/green_cap.jpg": "/Smarca02-module-ii/static/media/green_cap.4af7df83.jpg",
     "static/media/home-Img1.jpg": "/Smarca02-module-ii/static/media/home-Img1.ee3702ab.jpg",
     "static/media/home_groupPhoto.jpg": "/Smarca02-module-ii/static/media/home_groupPhoto.335c31c6.jpg",
-    "static/media/logo.svg": "/Smarca02-module-ii/static/media/logo.a0baeafc.svg",
+    "static/media/logo.svg": "/Smarca02-module-ii/static/media/logo.e3625784.svg",
     "static/media/plant-signpost.jpg": "/Smarca02-module-ii/static/media/plant-signpost.c039f8f5.jpg",
     "static/media/plantCare_Img1.jpg": "/Smarca02-module-ii/static/media/plantCare_Img1.ca06d3b6.jpg",
     "static/media/shop_Img1.jpg": "/Smarca02-module-ii/static/media/shop_Img1.ee666966.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.455ba15d.js",
     "static/js/2.66832235.chunk.js",
-    "static/css/main.73ec6ae8.chunk.css",
-    "static/js/main.3c7a4be9.chunk.js"
+    "static/css/main.e6f88bd2.chunk.css",
+    "static/js/main.aab15b3a.chunk.js"
   ]
 }

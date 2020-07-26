@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d205658a74215ceec0164496efa01e09",
+    "revision": "4634bee206c93fed22eda26df44a3144",
     "url": "/Smarca02-module-ii/index.html"
   },
   {
-    "revision": "d48d87d269d6e278880f",
-    "url": "/Smarca02-module-ii/static/css/main.73ec6ae8.chunk.css"
+    "revision": "b81dc645fa1600e96fb2",
+    "url": "/Smarca02-module-ii/static/css/main.e6f88bd2.chunk.css"
   },
   {
     "revision": "160fa24d3614337d4c57",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Smarca02-module-ii/static/js/2.66832235.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d48d87d269d6e278880f",
-    "url": "/Smarca02-module-ii/static/js/main.3c7a4be9.chunk.js"
+    "revision": "b81dc645fa1600e96fb2",
+    "url": "/Smarca02-module-ii/static/js/main.aab15b3a.chunk.js"
   },
   {
     "revision": "a158fa9bfffdac86da14",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Smarca02-module-ii/static/media/home_groupPhoto.335c31c6.jpg"
   },
   {
-    "revision": "a0baeafc20d7e17583b12b22ea1cb267",
-    "url": "/Smarca02-module-ii/static/media/logo.a0baeafc.svg"
+    "revision": "e36257846a7e64881e6ed8d4d5210ee0",
+    "url": "/Smarca02-module-ii/static/media/logo.e3625784.svg"
   },
   {
     "revision": "c039f8f5277a5c403eab2a041cce3773",
