@@ -25,7 +25,7 @@
 .searchPlant-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -35,7 +35,47 @@
   font-weight: 600;
 }
 
-.searchPlant-form input {
-  width: 35em;
+input#plant {
+  width: 20em;
+  max-width: 90%;
   border: 5px solid #174e43;
+  margin-bottom: 1em;
+}
+
+.searchPlant-button {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.4em;
+  width: 10em;
+  border-radius: 1.2em;
+  border: 3px solid #174e47;
+  background-image: linear-gradient(#327d11, #174e47);
+  box-shadow: dimgray 0.2em 0.2em 0.6em;
+  transition-delay: 0.2s ease-in;
+}
+
+.searchPlant-button:hover {
+  color: #174e43;
+  border: 3px solid #174e43;
+  background-image: linear-gradient(#aac727, #d4b427);
+  box-shadow: dimgray 0.2em 0.2em 0.6em;
+}
+
+@media screen and (max-width: 425px) {
+  .searchPlant-info h1 {
+    font-size: 2rem;
+  }
+
+  .searchPlant-info p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  input#plant {
+    width: 20em;
+    border: 3px solid #174e43;
+  }
 }

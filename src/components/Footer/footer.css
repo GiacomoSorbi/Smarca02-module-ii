@@ -24,3 +24,31 @@
   display: flex;
   width: 20%;
 }
+
+@media screen and (max-width: 900px) {
+  .footer-container {
+    padding: 0 6em;
+  }
+
+  .row1 {
+    width: 60%;
+  }
+
+  .row2 {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer-container {
+    padding: 0;
+  }
+
+  .row1 {
+    width: 50%;
+  }
+
+  .row2 {
+    width: 30%;
+  }
+}

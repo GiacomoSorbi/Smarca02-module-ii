@@ -15,3 +15,13 @@
   text-transform: uppercase;
   padding-top: 2em;
 }
+
+@media screen and (max-width: 425) {
+  .cardlist-container {
+    padding-bottom: 0;
+  }
+
+  .card-title {
+    padding-top: 0;
+  }
+}

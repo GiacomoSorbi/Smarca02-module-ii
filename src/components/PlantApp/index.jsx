@@ -49,8 +49,7 @@ function PlantApp() {
           </span>
         </h1>
         <p>
-          Insert a plant common name to learn its scientific name, family, and
-          additional info on its characteristics and lifespan.
+          Insert a plant common name to learn more about its specifications.
         </p>
       </div>
       <PlantAppForm onSubmit={onSubmit} className="searchPlant-form">
@@ -63,14 +62,14 @@ function PlantApp() {
           value={search.plant}
         />
         <button
-          disabled={data.loading || !search.plant}
           className="searchPlant-button"
+          disabled={data.loading || !search.plant}
         >
           {data.loading ? "Loading..." : "Search!"}
         </button>
       </PlantAppForm>
       {data.plantData && <PlantInfoCard plant={data.plantData} />}
-      {data.error && <div>{data.error}</div>}
+      {data.error && <div>{JSON.stringify(data.error)}</div>}
     </div>
   );
 }

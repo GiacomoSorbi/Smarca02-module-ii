@@ -1,0 +1,13 @@
+.pinfo-card {
+  display: flex;
+  flex-direction: column;
+  height: 25em;
+  width: 25em;
+  border: 5px solid #174e47;
+  background-image: linear-gradient(to top, #aac727 0%, #ffffff);
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  padding: 1em;
+  margin: 2em;
+  box-shadow: dimgray 0.2em 0.2em 0.6em;
+}

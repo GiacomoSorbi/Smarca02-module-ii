@@ -6,8 +6,6 @@ import { ShopCart } from "../../components/ShopCart";
 import { CartProvider } from "../../components/CartContext";
 import heroShop from "../../myimages/shop_Img1.jpg";
 
-import "./shoppage.css";
-
 function ShopPage() {
   return (
     <>
@@ -15,8 +13,8 @@ function ShopPage() {
         <HeroImg heroimage={heroShop} />
         <ShopText />
         <CartProvider>
-          <ShopList />
           <ShopCart />
+          <ShopList />
         </CartProvider>
       </main>
     </>
