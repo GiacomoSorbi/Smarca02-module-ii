@@ -57,3 +57,30 @@
   background-image: linear-gradient(#aac727, #d4b427);
   box-shadow: dimgray 0.2em 0.2em 0.6em;
 }
+
+@media screen and (max-width: 452px) {
+  .shop-item {
+    max-width: 80%;
+    height: 30em;
+  }
+
+  .shop-item img {
+    width: 14em;
+  }
+
+  .shop-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 0.5em;
+  }
+
+  .shop-item h4 {
+    font-size: 0.8em;
+    padding-left: 0.5em;
+  }
+
+  .add-tocart {
+    align-self: center;
+    margin: 1.5em 0;
+  }
+}
