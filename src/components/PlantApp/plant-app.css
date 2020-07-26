@@ -1,0 +1,15 @@
+.searchPlant-container {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  height: 50vh;
+  background-image: linear-gradient(#bcda3a, #ddd3a6 100%);
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.searchPlant-form {
+  display: flex;
+  flex-direction: column;
+}
