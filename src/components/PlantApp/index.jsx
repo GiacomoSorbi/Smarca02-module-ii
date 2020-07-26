@@ -1,64 +1,119 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import PlantAppInput from "../PlantAppInput";
+import PlantAppForm from "../PlantAppForm";
+import PlantInfoCard from "../PlantInfoCard";
+import { TREFLE_TOKEN } from "../constants";
 import "./plant-app.css";
 
 function PlantApp() {
-  const TREFLE_TOKEN = "dkFNOEFMOEVoYldpUXQyaTNab05sZz09";
+  const initialState = {
+    plant: "",
+  };
 
-  useEffect(() => {
-    getPlantinfo();
-  }, []);
+  const [search, setSearch] = useState(initialState);
+  const [data, setData] = useState({});
 
-  const getPlantinfo = require("node-fetch");
+  const onChange = (event) => {
+    setSearch({ ...search, [event.target.id]: event.target.value });
+  };
 
-  (async () => {
-    const response = await fetch(
-      `https://trefle.io/api/v1/plants?token=${TREFLE_TOKEN}`
-    );
-    const json = await response.json();
-    console.log(json);
-  })();
+  const onSubmit = (event) => {
+    event.eventPreventDefault();
+    setData({ ...data, loading: true });
 
-  // const [query, setQuery] = useState(initialState);
-  // const [data, setData] = useState({});
+    const fetch = require("node-fetch");
 
-  // const onChange = (event) => {
-  //   setQuery({ ...query, [event.target.id]: event.target.value });
-  // };
-
-  // const onSubmit = (event) => {
-  //   event.preventDefault();
-  //   setData({ ...data, loading: true });
-  //   fetch(
-  //     `https://trefle.io/api/v1/plants?token=dkFNOEFMOEVoYldpUXQyaTNab05sZz09`
-  //   ).then((res) => {
-  //     if (!res.ok) {
-  //       setData({ ...data, error: res.statusText, loading: false });
-  //       return;
-  //     }
-  //     return res.json().then((plantData) => {
-  //       setData({ plantData, loading: false, error: null });
-  //     });
-  //   });
-  // };
+    fetch(
+      `${window.location.protocol}//trefle.io/api/v1/plants?token=${TREFLE_TOKEN}`
+    )
+      .then((res) => {
+        if (!res.ok) throw Error("Sorry, it's not working!");
+        return res.json();
+      })
+      .then((plantData) => {
+        setData({ ...plantData, loading: false, error: null });
+      })
+      .catch((error) => setData({ ...data, error, loading: false }));
+  };
 
   return (
     <div className="searchPlant-container">
-      <h1>Plant App</h1>
-      <form className="searchPlant-form">
-        <label>Search Plant</label>
-        <input
-          id="searchPlant"
+      <div className="searchPlant-info">
+        <h1>
+          <span aria-label="plant app" role="img">
+            🌱
+          </span>
+          TRY OUR PLANT APP!
+          <span aria-label="plant app" role="img">
+            🌱
+          </span>
+        </h1>
+        <p>
+          Insert a plant common name to learn its scientific name, family, and
+          additional info on its characteristics and lifespan.
+        </p>
+      </div>
+      <PlantAppForm onSubmit={onSubmit} className="searchPlant-form">
+        <PlantAppInput
           type="text"
-          placeholder="Insert common plant name to search"
+          id="plant"
+          label="Search plant"
+          onChange={onChange}
+          placeholder=" Insert common plant name"
+          value={search.plant}
         />
-        <button type="submit" className="searchPlant-button">
-          Learm about your plant!
+        <button
+          disabled={data.loading || !search.plant}
+          className="searchPlant-button"
+        >
+          {data.loading ? "Loading..." : "Search!"}
         </button>
-      </form>
+      </PlantAppForm>
+      {data.plantData && <PlantInfoCard plant={data.plantData} />}
+      {data.error && <div>{data.error}</div>}
     </div>
   );
 }
 export default PlantApp;
+
+// const TREFLE_TOKEN = "dkFNOEFMOEVoYldpUXQyaTNab05sZz09";
+
+// useEffect(() => {
+//   getPlantinfo();
+// }, []);
+
+// const getPlantinfo = require("node-fetch");
+
+// (async () => {
+//   const response = await fetch(
+//     `https://trefle.io/api/v1/plants?token=${TREFLE_TOKEN}`
+//   );
+//   const json = await response.json();
+//   console.log(json);
+// })();
+
+// const [query, setQuery] = useState(initialState);
+// const [data, setData] = useState({});
+
+// const onChange = (event) => {
+//   setQuery({ ...query, [event.target.id]: event.target.value });
+// };
+
+// const onSubmit = (event) => {
+//   event.preventDefault();
+//   setData({ ...data, loading: true });
+//   fetch(
+//     `https://trefle.io/api/v1/plants?token=dkFNOEFMOEVoYldpUXQyaTNab05sZz09`
+//   ).then((res) => {
+//     if (!res.ok) {
+//       setData({ ...data, error: res.statusText, loading: false });
+//       return;
+//     }
+//     return res.json().then((plantData) => {
+//       setData({ plantData, loading: false, error: null });
+//     });
+//   });
+// };
 
 //const YOUR_TREFLE_TOKEN = "dkFNOEFMOEVoYldpUXQyaTNab05sZz09";
 
