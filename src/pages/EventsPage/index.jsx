@@ -16,8 +16,8 @@ function EventsPage() {
       <HeroImg heroimage={heroEvents} />
       <EventsText />
       <div>
-        <h2 className="card-title">Events Calendar</h2>
-        <div className="cardlist-container">
+        <h2 className="cardTitle">Events Calendar</h2>
+        <div className="cardlistContainer">
           <EventCard
             cardimg={eventCard1}
             date="SUNDAY, SEPTEMBER 20"

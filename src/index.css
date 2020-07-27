@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.main-container {
+.mainContainer {
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -46,7 +46,7 @@ h5 {
   color: #327d11;
 }
 
-.bold-text {
+.boldText {
   font-size: 1.4rem;
   font-weight: 600;
   color: #327d11;
@@ -71,7 +71,7 @@ code {
     line-height: 1.2em;
   }
 
-  .bold-text {
+  .boldText {
     font-size: 1.2rem;
     font-weight: 600;
   }

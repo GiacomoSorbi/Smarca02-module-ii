@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./signup-form.css";
+import "./signupForm.css";
 
 const emailRegex = RegExp(/^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/);
 
@@ -75,9 +75,9 @@ class SignUpForm extends Component {
     const { formErrors } = this.state;
     return (
       <div className="wrapper">
-        <form className="form-wrapper" onSubmit={this.handleSubmit} noValidate>
-          <h3 className="form-title">Sign up to our newsletter</h3>
-          <p className="form-descr">
+        <form className="formWrapper" onSubmit={this.handleSubmit} noValidate>
+          <h3 className="formTitle">Sign up to our newsletter</h3>
+          <p className="formDescr">
             Receive news about our events and precious tips to keep your plants
             healthy and happy!
           </p>

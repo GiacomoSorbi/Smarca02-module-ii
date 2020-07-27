@@ -1,4 +1,4 @@
-.shop-item {
+.shopItem {
   display: flex;
   flex-direction: column;
   width: 20em;
@@ -8,7 +8,7 @@
   margin: 0.5em;
 }
 
-.shop-item img {
+.shopItem img {
   display: flex;
   max-width: 100%;
   width: 18em;
@@ -16,7 +16,7 @@
   margin-top: 0.7em;
 }
 
-.shop-item h3 {
+.shopItem h3 {
   display: flex;
   font-size: 1.5rem;
   font-weight: 700;
@@ -24,20 +24,20 @@
   padding-left: 0.7em;
 }
 
-.shop-item h4 {
+.shopItem h4 {
   display: flex;
   font-size: 1em;
   font-weight: 400;
   padding-left: 0.7em;
 }
 
-.add-tocart {
+.addTocart {
   align-self: flex-end;
   margin-right: 1em;
   margin-bottom: 1em;
 }
 
-.shop-item button {
+.shopItem button {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
   transition-delay: 0.2s ease-in;
 }
 
-.shop-item button:hover {
+.shopItem button:hover {
   color: #174e43;
   border: 3px solid #174e43;
   background-image: linear-gradient(#aac727, #d4b427);
@@ -59,27 +59,27 @@
 }
 
 @media screen and (max-width: 452px) {
-  .shop-item {
+  .shopItem {
     max-width: 80%;
     height: 30em;
   }
 
-  .shop-item img {
+  .shopItem img {
     width: 14em;
   }
 
-  .shop-item h3 {
+  .shopItem h3 {
     font-size: 1rem;
     font-weight: 600;
     padding-left: 0.5em;
   }
 
-  .shop-item h4 {
+  .shopItem h4 {
     font-size: 0.8em;
     padding-left: 0.5em;
   }
 
-  .add-tocart {
+  .addTocart {
     align-self: center;
     margin: 1.5em 0;
   }

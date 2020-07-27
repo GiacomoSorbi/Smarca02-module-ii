@@ -1,10 +1,10 @@
-.shoplist-container {
+.shoplistContainer {
   position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 80%;
-  height: 400vh;
+  height: 180vh;
   margin: 0 auto;
   justify-content: space-evenly;
   align-items: center;
@@ -12,14 +12,14 @@
 }
 
 @media screen and (max-width: 900px) {
-  .shoplist-container {
+  .shoplistContainer {
     height: 300vh;
     padding: 0.5em 0;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .shoplist-container {
+  .shoplistContainer {
     height: 700vh;
     padding: 0.5em 0;
   }

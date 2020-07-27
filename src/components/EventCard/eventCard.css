@@ -1,4 +1,4 @@
-.card-container {
+.cardContainer {
   display: flex;
   flex-direction: column;
   height: 25em;
@@ -12,30 +12,30 @@
   box-shadow: dimgray 0.2em 0.2em 0.6em;
 }
 
-img.card-img {
+img.cardImg {
   max-height: 50%;
   overflow: hidden;
   padding-bottom: 1em;
 }
 
-.card-address {
+.cardAddress {
   padding-top: 1em;
   padding-bottom: 2em;
 }
 
-.card-date,
-.card-time {
+.cardDate,
+.cardTime {
   text-transform: uppercase;
 }
 
-.card-bottom {
+.cardBottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.card-price {
+.cardPrice {
   width: 2.5em;
   padding: 0.1em;
   font-size: 1.5rem;
@@ -45,7 +45,7 @@ img.card-img {
   text-align: center;
 }
 
-.card-button {
+.cardButton {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -59,7 +59,7 @@ img.card-img {
   transition-delay: 0.2s ease-in;
 }
 
-.card-button:hover {
+.cardButton:hover {
   color: #174e43;
   border: 3px solid #174e43;
   background-image: linear-gradient(#aac727, #d4b427);

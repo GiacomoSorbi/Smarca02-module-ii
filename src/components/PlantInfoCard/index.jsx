@@ -1,8 +1,8 @@
 import React from "react";
-import "./plantinfo-card.css";
-
+import "./plantinfoCard.css";
+// this function is taking no value since I have not been able to successfully fetch data from api
 const plantInfoCard = ({ data }) => (
-  <div className="pinfo-card">{data.main}</div>
+  <div className="pinfoCard">{data.main}</div>
 );
 
 export default plantInfoCard;

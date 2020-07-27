@@ -6,8 +6,10 @@ import mug from "../../myimages/camping_mug.jpg";
 import cap from "../../myimages/green_cap.jpg";
 import tshirt from "../../myimages/t-shirt.jpg";
 import apron from "../../myimages/gardener_Apron.jpg";
-import "./shop-list.css";
+import "./shopList.css";
 
+//The ShopList is the first component of the whole shop
+// Below, the array of 6 initial objects
 export const ShopList = () => {
   const shopData = [
     {
@@ -54,8 +56,12 @@ export const ShopList = () => {
     },
   ];
 
+  //the shopData array is mapped as props into the ShopItem component
+  // to return a new array of items that populate the ShopList
+  // the unique key element is needed by React for item identification
+
   return (
-    <div className="shoplist-container">
+    <div className="shoplistContainer">
       {shopData.map((data) => (
         <ShopItem
           img

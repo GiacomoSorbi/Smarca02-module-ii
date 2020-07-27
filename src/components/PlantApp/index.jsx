@@ -3,24 +3,26 @@ import PlantAppInput from "../PlantAppInput";
 import PlantAppForm from "../PlantAppForm";
 import PlantInfoCard from "../PlantInfoCard";
 import { TREFLE_TOKEN } from "../constants";
-import "./plant-app.css";
+import "./plantApp.css";
 
+//useState is used to change the state of the component.
+// here the initialState is set as en empty string
 function PlantApp() {
   const initialState = {
     plant: "",
   };
-
+  // the initail state is changed with the creation of a new array
   const [search, setSearch] = useState(initialState);
   const [data, setData] = useState({});
 
   const onChange = (event) => {
     setSearch({ ...search, [event.target.id]: event.target.value });
   };
-
+  // eventPreventDefault prevents the browser from refreshing immediately after a stroke is entered with the keyboard
   const onSubmit = (event) => {
     event.eventPreventDefault();
     setData({ ...data, loading: true });
-
+    // with fetch data from an API are accessed and filtered to be used in the app
     const fetch = require("node-fetch");
 
     fetch(
@@ -37,8 +39,8 @@ function PlantApp() {
   };
 
   return (
-    <div className="searchPlant-container">
-      <div className="searchPlant-info">
+    <div className="searchPlantContainer">
+      <div className="searchPlantInfo">
         <h1>
           <span aria-label="plant app" role="img">
             🌱
@@ -52,7 +54,7 @@ function PlantApp() {
           Insert a plant common name to learn more about its specifications.
         </p>
       </div>
-      <PlantAppForm onSubmit={onSubmit} className="searchPlant-form">
+      <PlantAppForm onSubmit={onSubmit} className="searchPlantForm">
         <PlantAppInput
           type="text"
           id="plant"
@@ -62,7 +64,7 @@ function PlantApp() {
           value={search.plant}
         />
         <button
-          className="searchPlant-button"
+          className="searchPlantButton"
           disabled={data.loading || !search.plant}
         >
           {data.loading ? "Loading..." : "Search!"}
@@ -74,6 +76,8 @@ function PlantApp() {
   );
 }
 export default PlantApp;
+
+// Old attempts to fetch data
 
 // const TREFLE_TOKEN = "dkFNOEFMOEVoYldpUXQyaTNab05sZz09";
 

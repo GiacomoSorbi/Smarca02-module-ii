@@ -1,4 +1,4 @@
-.cardlist-container {
+.cardlistContainer {
   display: flex;
   width: 80%;
   flex-wrap: wrap;
@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-.card-title {
+.cardTitle {
   text-align: center;
   font-family: "Delius";
   font-size: 2rem;
@@ -17,11 +17,11 @@
 }
 
 @media screen and (max-width: 425) {
-  .cardlist-container {
+  .cardlistContainer {
     padding-bottom: 0;
   }
 
-  .card-title {
+  .cardTitle {
     padding-top: 0;
   }
 }

@@ -1,11 +1,11 @@
-.main-footer {
+.mainFooter {
   width: 100%;
   background-color: white;
   border-top: 1px solid #b5b5b5;
   margin-top: 3em;
 }
 
-.footer-container {
+.footerContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .footer-container {
+  .footerContainer {
     padding: 0 6em;
   }
 
@@ -40,7 +40,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .footer-container {
+  .footerContainer {
     padding: 0;
   }
 

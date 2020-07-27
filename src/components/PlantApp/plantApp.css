@@ -1,4 +1,4 @@
-.searchPlant-container {
+.searchPlantContainer {
   display: flex;
   flex-direction: column;
   width: 78%;
@@ -10,26 +10,26 @@
   margin-bottom: 4em;
 }
 
-.searchPlant-info h1 {
+.searchPlantInfo h1 {
   font-size: 2.5rem;
   text-align: center;
   color: #174e43;
 }
 
-.searchPlant-info p {
+.searchPlantInfo p {
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
 
-.searchPlant-form {
+.searchPlantForm {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.searchPlant-form label {
+.searchPlantForm label {
   font-size: 1rem;
   padding: 0 0.3em;
   font-weight: 600;
@@ -42,7 +42,7 @@ input#plant {
   margin-bottom: 1em;
 }
 
-.searchPlant-button {
+.searchPlantButton {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -56,7 +56,7 @@ input#plant {
   transition-delay: 0.2s ease-in;
 }
 
-.searchPlant-button:hover {
+.searchPlantButton:hover {
   color: #174e43;
   border: 3px solid #174e43;
   background-image: linear-gradient(#aac727, #d4b427);
@@ -64,15 +64,15 @@ input#plant {
 }
 
 @media screen and (max-width: 425px) {
-  .searchPlant-container {
+  .searchPlantContainer {
     height: 72vh;
     margin-bottom: 2em;
   }
-  .searchPlant-info h1 {
+  .searchPlantInfo h1 {
     font-size: 2rem;
   }
 
-  .searchPlant-info p {
+  .searchPlantInfo p {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;

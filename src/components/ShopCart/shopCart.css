@@ -1,4 +1,4 @@
-.shopping-cart {
+.shoppingCart {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.shopping-cart span {
+.shoppingCart span {
   width: 25%;
   font-size: 1.3rem;
   color: white;
@@ -17,7 +17,7 @@
   border: 2px solid white;
 }
 
-.shopping-cart button {
+.shoppingCart button {
   background-color: #5f3e2f;
   font-size: 1.3rem;
   color: white;
@@ -30,7 +30,7 @@
   transition-delay: 0.2s;
 }
 
-.shopping-cart button:hover {
+.shoppingCart button:hover {
   background-color: #aac700;
   color: #174343;
   border: 2px solid #174343;
@@ -38,7 +38,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .shopping-cart span {
+  .shoppingCart span {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -47,7 +47,7 @@
     text-align: center;
   }
 
-  .shopping-cart button {
+  .shoppingCart button {
     background-color: #5f3e2f;
     font-size: 1rem;
     border: 2px solid #5f3e2f;
@@ -57,14 +57,14 @@
 }
 
 @media screen and (max-width: 425px) {
-  .shopping-cart {
+  .shoppingCart {
     width: 100%;
     display: flex;
     flex-direction: column;
     height: 26vh;
   }
 
-  .shopping-cart span {
+  .shoppingCart span {
     display: flex;
     flex-direction: row;
     width: 100%;

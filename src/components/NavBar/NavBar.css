@@ -1,4 +1,4 @@
-.navBar_container {
+.navBarContainer {
   display: flex;
   max-width: 100%;
   align-items: center;
@@ -6,7 +6,7 @@
   background-color: #327d11;
 }
 
-.navBar_logoh {
+.navBarLogoh {
   width: 10%;
 }
 
@@ -15,7 +15,7 @@
   padding-left: 3em;
 }
 
-.navBar_links {
+.navBarLinks {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -41,11 +41,11 @@ nav ul li a:active {
 }
 
 @media screen and (max-width: 700px) {
-  .navBar_container {
+  .navBarContainer {
     height: 9vh;
   }
 
-  .navBar_logoh {
+  .navBarLogoh {
     width: 30%;
   }
 
@@ -65,7 +65,7 @@ nav ul li a:active {
 }
 
 @media screen and (max-width: 425px) {
-  .navBar_container {
+  .navBarContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -79,7 +79,7 @@ nav ul li a:active {
     width: 100%;
   }
 
-  .navBar_links {
+  .navBarLinks {
     display: flex;
     flex-direction: column;
     width: 100%;

@@ -3,6 +3,9 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import { HomePage, EventsPage, PlantAppPage, ShopPage } from "./pages";
 
+// Switch allows us to move from one webpage to the other
+// Route acts as
+
 function App() {
   return (
     <Switch>

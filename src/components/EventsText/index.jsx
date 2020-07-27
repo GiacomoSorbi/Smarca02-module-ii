@@ -1,7 +1,7 @@
 import React from "react";
-
+//Dummy component with text to be display in the events page
 const EventsText = () => (
-  <div className="main-container">
+  <div className="mainContainer">
     <p>
       Come along and bring your plant starts, cuttings, propagations, baby and
       matured plants.
