@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4634bee206c93fed22eda26df44a3144",
+    "revision": "a776cff584a529da85ba0c1667b4d941",
     "url": "/Smarca02-module-ii/index.html"
   },
   {
-    "revision": "b81dc645fa1600e96fb2",
-    "url": "/Smarca02-module-ii/static/css/main.e6f88bd2.chunk.css"
+    "revision": "e586bce258f2e55bd1b9",
+    "url": "/Smarca02-module-ii/static/css/main.4861a8a1.chunk.css"
   },
   {
-    "revision": "160fa24d3614337d4c57",
-    "url": "/Smarca02-module-ii/static/js/2.66832235.chunk.js"
+    "revision": "10c39e6b956da0124278",
+    "url": "/Smarca02-module-ii/static/js/2.f09ab829.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Smarca02-module-ii/static/js/2.66832235.chunk.js.LICENSE.txt"
+    "url": "/Smarca02-module-ii/static/js/2.f09ab829.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b81dc645fa1600e96fb2",
-    "url": "/Smarca02-module-ii/static/js/main.aab15b3a.chunk.js"
+    "revision": "e586bce258f2e55bd1b9",
+    "url": "/Smarca02-module-ii/static/js/main.f924dfbc.chunk.js"
   },
   {
     "revision": "a158fa9bfffdac86da14",
