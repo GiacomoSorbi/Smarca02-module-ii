@@ -82,25 +82,25 @@
 }
 
 @media screen and (max-width: 700px) {
-  .main-container2 {
+  .mainContainer2 {
     padding-top: 2em;
     padding-bottom: 2em;
   }
 
-  .event-button {
+  .eventButton {
     font-size: 0.8rem;
     line-height: 1.2em;
     padding: 0.6em;
     border-radius: 2.6em;
   }
 
-  .green-image img {
+  .greenImage img {
     padding-bottom: 1em;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .main-container2 {
+  .mainContainer2 {
     padding-top: 0;
     padding-bottom: 3em;
   }
@@ -109,14 +109,14 @@
     display: flex;
     flex-direction: column;
   }
-  .two-rows2 {
+  .twoRows2 {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding-bottom: 0;
   }
 
-  .button-container {
+  .buttonContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -125,7 +125,7 @@
     padding: 1.5em;
   }
 
-  .event-button {
+  .eventButton {
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 1em;
@@ -135,7 +135,7 @@
     border: 3px solid #174e47;
   }
 
-  .green-image img {
+  .greenImage img {
     padding-bottom: 0;
   }
 }

@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 750px) {
   .shoplistContainer {
-    height: 700vh;
+    height: 600vh;
     padding: 0.5em 0;
   }
 }

@@ -178,7 +178,7 @@ input::placeholder {
 @media screen and (max-width: 425px) {
   .wrapper {
     width: 78%;
-    height: 72vh;
+    height: 64vh;
   }
   .formTitle {
     font-weight: 600;

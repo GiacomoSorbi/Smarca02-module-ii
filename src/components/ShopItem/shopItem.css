@@ -60,12 +60,13 @@
 
 @media screen and (max-width: 452px) {
   .shopItem {
-    max-width: 80%;
+    max-width: 70%;
     height: 30em;
   }
 
   .shopItem img {
-    width: 14em;
+    display: flex;
+    width: 13em;
   }
 
   .shopItem h3 {
