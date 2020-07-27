@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a776cff584a529da85ba0c1667b4d941",
+    "revision": "118cd0b3b41c12c55a209eee161812ad",
     "url": "/Smarca02-module-ii/index.html"
   },
   {
-    "revision": "e586bce258f2e55bd1b9",
-    "url": "/Smarca02-module-ii/static/css/main.4861a8a1.chunk.css"
+    "revision": "bc78e8b4d45a36d7b427",
+    "url": "/Smarca02-module-ii/static/css/main.969c2169.chunk.css"
   },
   {
     "revision": "10c39e6b956da0124278",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Smarca02-module-ii/static/js/2.f09ab829.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e586bce258f2e55bd1b9",
+    "revision": "bc78e8b4d45a36d7b427",
     "url": "/Smarca02-module-ii/static/js/main.f924dfbc.chunk.js"
   },
   {
