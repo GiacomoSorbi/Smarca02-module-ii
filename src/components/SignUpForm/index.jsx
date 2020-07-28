@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./signupForm.css";
 
+// email regular expression to check email
 const emailRegex = RegExp(/^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/);
 
 const formValid = (formErrors) => {
@@ -13,6 +14,8 @@ const formValid = (formErrors) => {
   return valid;
 };
 
+// with class components a constructor is necessary to have state
+//while superextends the component in order to pass props
 class SignUpForm extends Component {
   constructor() {
     super();
@@ -27,9 +30,12 @@ class SignUpForm extends Component {
       },
     };
   }
+  // this function prevents the page from reloading
+  // (e) (event) in ES6 events propagate
   handleSubmit = (e) => {
     e.preventDefault();
 
+    //function that validate the form
     if (formValid(this.state.formErrors)) {
       console.log(`SUBMITTING
       First Name: ${this.state.firstName}
@@ -41,11 +47,14 @@ class SignUpForm extends Component {
     }
   };
 
+  // function that takes the name and value objects and checks for errors
+  // changing their state
   handleChange = (e) => {
     e.preventDefault();
     const { name, value } = e.target;
     let formErrors = this.state.formErrors;
 
+    // with this switch statement rules for form validation are set
     switch (name) {
       case "firstName":
         formErrors.firstName =
@@ -91,10 +100,10 @@ class SignUpForm extends Component {
                 type="text"
                 name="firstName"
                 placeholder="First Name"
-                onChange={this.handleChange}
+                onChange={this.handleChange} //onChange will implement changes
               />
               {formErrors.firstName.length > 0 && (
-                <p className="errorMessage">{formErrors.firstName}</p>
+                <p className="errorMessage">{formErrors.firstName}</p> //this function assigns the errorMessage class to display set rules in case of errors
               )}
             </div>
             <div className="lastName">
